@@ -101,6 +101,7 @@ address {
 
 /*Hero*/
 .hero {
+  font-family: var(--primary-font);
   background-color: var(--secondary-color);
   letter-spacing: 0.06em;
 }
@@ -112,6 +113,7 @@ address {
   text-align: center;
 }
 .hero-button {
+  font-family: var(--primary-font);
   color: var(--primary-white-color);
   background-color: var(--theme-color);
   font-weight: 700;
@@ -119,6 +121,7 @@ address {
   line-height: 1.87;
   letter-spacing: 0.06em;
   text-align: center;
+  cursor: pointer;
 }
 /*Feature*/
 .feature-title {
@@ -168,11 +171,13 @@ address {
 
 /*Стили для Портфолио*/
 .button-nav {
+  font-family: var(--primary-font);
   color: var(--text-primary);
   background-color: var(--another-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
+  cursor: pointer;
 }
 .button-nav:hover,
 .button-nav:focus {
