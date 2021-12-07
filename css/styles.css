@@ -117,6 +117,7 @@ address {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
+  letter-spacing: 0.06em;
   text-align: center;
 }
 /*Feature*/
@@ -135,7 +136,7 @@ address {
 .team {
   background-color: var(--another-color);
 }
-.item .caption {
+.item {
   color: var(--text-primary);
   font-weight: 500;
   font-size: 16px;
